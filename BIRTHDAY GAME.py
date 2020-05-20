@@ -1,11 +1,11 @@
 import time
 import math
-print("Hello to Guess the birthday game")
+print("Welcome to Guess the birthday game")
 
 ans = input("Are you to play (y/n) ")
 
 if ans.lower() == 'y':
-    print("Take number of the month in which your birth day is E.G if born in january take 1")
+    print("Take number of the month in which your birth day is E.G For January take 1, for February take 2, and so on")
 time.sleep(3.0)
 print("Now double the number of the month")
 time.sleep(3.0)
